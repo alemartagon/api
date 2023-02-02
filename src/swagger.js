@@ -23,7 +23,7 @@ const swaggerSpec =
         paths: {
             "/api/hombres": {
                 get: {
-                    summary: "Devuelve los hombresd del sistema",
+                    summary: "Devuelve los hombres del sistema",
                     tags: [
                         "hombres"
                     ],
