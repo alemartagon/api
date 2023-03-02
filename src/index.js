@@ -12,6 +12,7 @@ app.use(bodyParser.json())
 var router = require('./routes')
 const { swaggerDocs: SwaggerDocs } = require("./swagger.js");
 
+
 app.use('/api', router)
 
 //arrancamos el servidor
