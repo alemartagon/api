@@ -2,4 +2,4 @@
 
 Conseguir la API de dockerhub:
 
-docker run -d -p 8080:8080 alemartagon/api-swager
+docker run -d -p 4000:4000 alemartagon/api-swager
