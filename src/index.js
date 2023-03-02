@@ -15,6 +15,7 @@ const { swaggerDocs: SwaggerDocs } = require("./swagger.js");
 
 app.use('/api', router)
 
+
 //arrancamos el servidor
 app.listen(port, () => {
     console.log(`Server is running on port ${port}.`);
